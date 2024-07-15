@@ -1,0 +1,32 @@
+{
+  "formaValidation": {
+    "title": "Valide sua senha",
+    "inputs": {
+      "name": {
+        "placeholder": "nome",
+        "errorMessage": "Informe ao menos o primeiro nome"
+      },
+      "email": {
+        "placeholder": "E-mail",
+        "errorMessage": "Informe um email válido"
+      },
+      "password": {
+        "placeholder": "Senha",
+        "errorMessage": "Senha inválida",
+        "tips": {
+          "mustBeNumber": "A senha precisa ser numérica",
+          "lengthCount": "A Senha deve conter 6 digitos",
+          "range": "A senha deve estar entre 184759 e 856920.",
+          "twoDigits": "A Senha deve conter 2 digitos adjacentes iguais.",
+          "crescent": "A Senha deve ter digitos numa sequência crescente ou de mesmo valor"
+        },
+        "valid": "Senha válida!"
+      }
+    },
+    "apiMessages": {
+      "sent": "Resultado enviado com sucesso!",
+      "catch": "Falha ao enviar o resultado. Tente novamente"
+    },
+    "submitButton": "Enviar"
+  }
+}
